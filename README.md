@@ -32,5 +32,5 @@ pip install -r requirements.txt
 3.sadtalker的face render比较慢，可以通过设置batch_size稍微加快，但对显存消耗很大
 
 # todo
-\Box 尝试流式的方式进行加速
-\Box 进行界面优化
+- [ ]  尝试流式的方式进行加速
+- [ ]  进行界面优化
