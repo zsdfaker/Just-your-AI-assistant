@@ -24,4 +24,4 @@ pip install -r requirements.txt
 ## 对话模式
 默认方式，采用传统一问一答的方式进行进行聊天
 ## 助理模式
-按顺序，填写问题，提供人物图片，生成对话，生成对话视频即可。需要注意的是，目前使用的sadtalker模型对二次元划分很不敏感，容易出现"can not detect the landmark from source image"的问题，这里建议重新训练，或者使用真人以及sd绘制的2.5d图片。
+按顺序执行，填写问题、提供人物图片、选择目标音色（目前共计805个声音）、生成对话、生成对话视频即可。需要注意的是，目前使用的sadtalker模型对二次元划分很不敏感，容易出现"can not detect the landmark from source image"的问题，这里建议重新训练，或者使用真人以及sd绘制的2.5d图片。
