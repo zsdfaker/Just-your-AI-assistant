@@ -1,7 +1,7 @@
 # Just-your-AI-assistant
 基于SpeechRecognition、ChatGLM、VITS以及Sadtalker搭建的可自定义人设、形象以及声音的AI助手
 # 基本介绍
-主要参考[https://github.com/ruoqiu6/chat-with-Elysia2.0.git ](https://github.com/hhhwmws0117/GLM-VITS-SadTalker)
+主要参考https://github.com/hhhwmws0117/GLM-VITS-SadTalker
 chatGLM-6B模型为清华大学开源，使用时请注意查看对应的使用需知，严格遵守使用规定
 模型下载链接 点击这里 请仔细阅读说明根据自己的硬件配置下载对应模型
 模型下载后请将模型及响应的文件放置在./chatglm-model路径下
