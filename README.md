@@ -28,7 +28,7 @@ pip install -r requirements.txt
 # 对话模式
 默认方式，采用传统一问一答的方式进行进行聊天
 ### 界面
-[img/1.png](https://github.com/zsdfaker/Just-your-AI-assistant/blob/main/img/1.png)
+![img/1.png](https://github.com/zsdfaker/Just-your-AI-assistant/blob/main/img/1.png)
 ### 测试效果
 ![11](https://github.com/zsdfaker/Just-your-AI-assistant/assets/40298406/3fcbd8c6-7529-4bd0-b2b4-dd7c6817398a)
 
