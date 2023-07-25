@@ -39,7 +39,10 @@ pip install -r requirements.txt
 ![12](https://github.com/zsdfaker/Just-your-AI-assistant/assets/40298406/27a4b5bb-88ce-47b0-88e9-2f76ca9c131c)
 ### 输出demo
 
-https://github.com/zsdfaker/Just-your-AI-assistant/assets/40298406/89e6b07b-deba-4dd2-9aec-5acfa3296996
+
+https://github.com/zsdfaker/Just-your-AI-assistant/assets/40298406/5410e45f-610c-4fd3-a6b9-382c622b85f5
+
+
 
 # 注意事项
 1.未修改sdatalker模型的话，最好使用真人、2.5D以及3D图片
