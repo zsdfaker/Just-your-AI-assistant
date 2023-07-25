@@ -25,8 +25,21 @@ pip install -r requirements.txt
 在运行gradio文件后,通过点选选择对应的模式进行对话即可。需要注意的是，助理模式下，需要按顺序，填写问题，提供人物图片，生成对话，生成对话视频
 # 对话模式
 默认方式，采用传统一问一答的方式进行进行聊天
+### 界面
+![1](https://github.com/zsdfaker/Just-your-AI-assistant/assets/40298406/b25df921-d8b3-4c56-a78d-4687b2d3a4ca)
+### 测试效果
+![11](https://github.com/zsdfaker/Just-your-AI-assistant/assets/40298406/3fcbd8c6-7529-4bd0-b2b4-dd7c6817398a)
+
 # 助理模式
 按顺序执行，填写问题、提供人物图片、选择目标音色（目前共计805个声音）、生成对话、生成对话视频即可。需要注意的是，目前使用的sadtalker模型对二次元划分很不敏感，容易出现"can not detect the landmark from source image"的问题，这里建议重新训练，或者使用真人以及sd绘制的2.5d图片。
+### 界面
+![2](https://github.com/zsdfaker/Just-your-AI-assistant/assets/40298406/0df42e40-00f1-4762-b6c4-9c52392445dd)
+
+### 测试效果
+![12](https://github.com/zsdfaker/Just-your-AI-assistant/assets/40298406/27a4b5bb-88ce-47b0-88e9-2f76ca9c131c)
+### 输出demo
+
+https://github.com/zsdfaker/Just-your-AI-assistant/assets/40298406/89e6b07b-deba-4dd2-9aec-5acfa3296996
 
 # 注意事项
 1.未修改sdatalker模型的话，最好使用真人、2.5D以及3D图片
