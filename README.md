@@ -21,7 +21,16 @@ pip install -r requirements.txt
 运行项目时，使用 python gradio.py 即可运行
 
 在运行gradio文件后,通过点选选择对应的模式进行对话即可。需要注意的是，助理模式下，需要按顺序，填写问题，提供人物图片，生成对话，生成对话视频
-## 对话模式
+# 对话模式
 默认方式，采用传统一问一答的方式进行进行聊天
-## 助理模式
+# 助理模式
 按顺序执行，填写问题、提供人物图片、选择目标音色（目前共计805个声音）、生成对话、生成对话视频即可。需要注意的是，目前使用的sadtalker模型对二次元划分很不敏感，容易出现"can not detect the landmark from source image"的问题，这里建议重新训练，或者使用真人以及sd绘制的2.5d图片。
+
+# 注意事项
+1.未修改sdatalker模型的话，最好使用真人、2.5D以及3D图片
+2.SpeechRecognition需要梯子才可以正常使用
+3.sadtalker的face render比较慢，可以通过设置batch_size稍微加快，但对显存消耗很大
+
+# todo
+\Box 尝试流式的方式进行加速
+\Box 进行界面优化
