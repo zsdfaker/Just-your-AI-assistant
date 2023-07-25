@@ -15,6 +15,7 @@ Sadtalker模型下载参考https://github.com/OpenTalker/SadTalker
 
 模型下载：bash scripts/download_models.sh
 自行部署项目时，使用下面命令以安装模块，注意：pip安装的torch可能为cpu版本，请按照torch官网的安装方式安装对应的cuda版本，如果出现模块兼容性问题，请使用python3.9.6
+模型网盘下载：链接：https://pan.baidu.com/s/1S0SsAsUJz89XHB_0SzPtTw提取码：amrw
 
 pip install -r requirements.txt
 
