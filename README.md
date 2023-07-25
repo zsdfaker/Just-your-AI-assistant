@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ### 界面
 ![img/1.png](https://github.com/zsdfaker/Just-your-AI-assistant/blob/main/img/1.png)
 ### 测试效果
-![11](https://github.com/zsdfaker/Just-your-AI-assistant/assets/40298406/3fcbd8c6-7529-4bd0-b2b4-dd7c6817398a)
+![img/2.png](https://github.com/zsdfaker/Just-your-AI-assistant/blob/main/img/2.png)
 
 # 助理模式
 按顺序执行，填写问题、提供人物图片、选择目标音色（目前共计805个声音）、生成对话、生成对话视频即可。需要注意的是，目前使用的sadtalker模型对二次元划分很不敏感，容易出现"can not detect the landmark from source image"的问题，这里建议重新训练，或者使用真人以及sd绘制的2.5d图片。
