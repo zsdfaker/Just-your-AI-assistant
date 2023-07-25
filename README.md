@@ -18,6 +18,8 @@ Sadtalker模型下载参考https://github.com/OpenTalker/SadTalker
 
 pip install -r requirements.txt
 
+运行项目前，请确保完成ffmpeg的安装，并完成环境变量的添加
+
 运行项目时，使用 python gradio.py 即可运行
 
 在运行gradio文件后,通过点选选择对应的模式进行对话即可。需要注意的是，助理模式下，需要按顺序，填写问题，提供人物图片，生成对话，生成对话视频
