@@ -31,7 +31,7 @@ pip install -r requirements.txt
 # 注意事项
 1.未修改sdatalker模型的话，最好使用真人、2.5D以及3D图片
 2.SpeechRecognition需要梯子才可以正常使用
-3.sadtalker的face render比较慢，可以通过设置batch_size稍微加快，但对显存消耗很大
+3.sadtalker的face render比较慢，可以通过设置batch_size稍微加快，但对显存消耗很大(batchsize取 4时大概需要总计12g显存)
 
 # todo
 - [ ]  尝试流式的方式进行加速
