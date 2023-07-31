@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 、生成对话、生成对话视频即可。需要注意的是，目前使用的sadtalker模型对2D图片划分很不敏感，容易出现"can not detect the landmark from source image"的问题，这里建议重新训练，或者使用真人图片、3D图片以及sd绘制的2.5d图片。
 ### 界面
-![img/2.png](https://github.com/zsdfaker/Just-your-AI-assistant/blob/main/img/2.png)
+![img/newpage.png](https://github.com/zsdfaker/Just-your-AI-assistant/blob/main/img/newpage.png)
 ### 测试效果
 ![img/12.png](https://github.com/zsdfaker/Just-your-AI-assistant/blob/main/img/12.png)
 ### 输出demo
