@@ -113,13 +113,14 @@ with gr.Blocks() as app:
                                 with gr.Row():
                                     pose_style = gr.Slider(minimum=0, maximum=46, step=1, label="Pose style", value=0) #
                                     exp_weight = gr.Slider(minimum=0, maximum=3, step=0.1, label="expression scale", value=1) # 
-
+                                    blink_every = gr.Checkbox(label="use eye blink", value=True)
                                 with gr.Row():
                                     size_of_image = gr.Radio([256, 512], value=256, label='face model resolution', info="use 256/512 model?") # 
                                     preprocess_type = gr.Radio(['crop', 'resize','full', 'extcrop', 'extfull'], value='crop', label='preprocess', info="How to handle input image?")
-                                
                                 with gr.Row():
-                                    is_still_mode = gr.Checkbox(label="Still Mode (fewer hand motion, works with preprocess `full`)")
+                                    is_still_mode = gr.Checkbox(label="Still Mode (fewer head motion, works with preprocess `full`)")
+                                    facerender = gr.Radio(['facevid2vid','pirender'], value='facevid2vid', label='facerender', info="which face render?")
+                                with gr.Row():
                                     batch_size = gr.Slider(label="batch size in generation", step=1, maximum=10, value=2)
                                     enhancer = gr.Checkbox(label="GFPGAN as Face enhancer")                                  
                                 submit = gr.Button('Generate', elem_id="sadtalker_generate", variant='primary')                      
@@ -135,6 +136,7 @@ with gr.Blocks() as app:
                         batch_size,                            
                         size_of_image,
                         pose_style,
+                        facerender,
                         exp_weight
                         ], 
                 outputs=[gen_video]
