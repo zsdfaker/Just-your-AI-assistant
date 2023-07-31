@@ -53,6 +53,8 @@ pip install -r requirements.txt
 
 3.sadtalker的face render比较慢，可以通过设置batch_size稍微加快，但对显存消耗很大(batchsize取 4时大概需要总计12g显存)
 
+# 更新
+根据sadtalker原项目的issue添加了facerender模块，在不选face enhance的前提下处理10s左右音频，整个流程控制大改在1分半左右，速度上有了一定的提升。
 # todo
 - [ ]  尝试流式的方式进行加速
 - [ ]  进行界面优化
